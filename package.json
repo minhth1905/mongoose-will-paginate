@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha tests/*.js --timeout 5000"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravindnc/mongoose-paginate-v2.git"
+  },
   "keywords": [
     "mongoose",
     "paginate",
