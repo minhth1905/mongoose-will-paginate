@@ -1,12 +1,12 @@
 # mongoose-will-paginate
 > Pagination plugin for [Mongoose](http://mongoosejs.com)
 
-[![NPM version](https://img.shields.io/npm/v/mongoose-paginate.svg)](https://npmjs.org/package/mongoose-will-paginate)
-**Note:** This plugin will only work with Node.js >= 4.2 and Mongoose >= 5.2
+[![NPM version](https://img.shields.io/npm/v/mongoose-will-paginate.svg)](https://npmjs.org/package/mongoose-will-paginate)
+## **Note:** This plugin will only work with Node.js >= 4.2 and Mongoose >= 5.2
 ## Installation
 
 ```sh
-npm install mongoose-paginate
+npm install mongoose-will-paginate
 ```
 ## Usage
 
@@ -14,7 +14,7 @@ Add plugin to a schema and then use model `paginate` method:
 
 ```js
 var mongoose = require('mongoose');
-var mongoosePaginate = require('mongoose-paginate');
+var mongoosePaginate = require('mongoose-will-paginate');
 
 var schema = new mongoose.Schema({ /* schema definition */ });
 schema.plugin(mongoosePaginate);
